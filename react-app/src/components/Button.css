@@ -1,0 +1,112 @@
+:root {
+    --primary: #13ad65;
+    --secondary: #2e2bce;
+    --tertiary: #2c8ec8;
+  }
+  .btn {
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Button Colors and Styles */
+  
+  .btn--primary--solid {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+  }
+  
+  .btn--tertiary--solid {
+    background-color: var(--tertiary);
+    color: var(--white);
+    border: none;
+  }
+  
+  .btn--primary--outline {
+    background-color: transparent;
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+  }
+  
+  /* Button Size */
+  .btn--medium {
+    padding: 10px 20px;
+    font-size: 15px;
+    width: 15%;
+  }
+  
+  .btn--large {
+    padding: 15px 30px;
+    font-size: 20px;
+    width: 20%;
+  }
+  
+  /* Button Position */
+  .btn--topleft {
+    position: absolute;
+    top: 2%;
+    left: 25%;
+  }
+  
+  .btn--topcenter {
+    position: absolute;
+    top: 2%;
+    left: 32.5%;
+  }
+  
+  .btn--topright {
+    position: absolute;
+    top: 2%;
+    left: 83%;
+  }
+  
+  .btn--centerleft {
+    position: absolute;
+    top: 47.5%;
+    left: 2%;
+  }
+  
+  .btn--centercenter {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+  
+  .btn--centerright {
+    position: absolute;
+    top: 62.5%;
+    left: 2%;
+  }
+  
+  .btn--bottomleft {
+    position: absolute;
+    top: 70%;
+    left: 2%;
+  }
+  
+  .btn--bottomcenter {
+    position: absolute;
+    top: 77.5%;
+    left: 2%;
+  }
+  
+  .btn--bottomright {
+    position: absolute;
+    top: 85%;
+    left: 2%;
+  }
+  
+  .btn--schedule {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+  }
+  

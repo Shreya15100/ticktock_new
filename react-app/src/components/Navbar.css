@@ -1,0 +1,23 @@
+.background {
+    margin: 0;
+    width: auto;
+    height: 65px;
+    background: greenyellow;
+}
+
+.logo {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 150px;
+    height: 55px;
+    background-image: './logo.png';
+}
+
+.text {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    text-size-adjust: auto;
+}
